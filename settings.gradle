@@ -1,0 +1,8 @@
+include ':appApologies'
+
+// Import the net.zerobandwidth.android.lib library.
+include ':lib_zbwAndroid'
+project(':lib_zbwAndroid').projectDir = new File(lib_zerobandwidth_android)
+
+include ':lib_zbwGames'
+project(':lib_zbwGames').projectDir = new File(lib_zerobandwidth_games)
